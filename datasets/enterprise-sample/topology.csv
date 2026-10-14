@@ -1,0 +1,20 @@
+# Enterprise network: from,to,capacity(Gbps)
+#source=Internet
+#sink=SIEM
+Internet,Edge-FW,100
+Edge-FW,WAF,60
+Edge-FW,VPN-GW,40
+WAF,LB,50
+LB,Web1,25
+LB,Web2,25
+Web1,App,30
+Web2,App,30
+VPN-GW,Auth,20
+VPN-GW,App,15
+App,DB,35
+App,Auth,10
+Auth,SIEM,20
+DB,SIEM,25
+Web1,SIEM,8
+Web2,SIEM,8
+App,SIEM,15

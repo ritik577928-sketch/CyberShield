@@ -1,0 +1,18 @@
+# CATEGORY|name   (MALWARE = known bad, SYSTEM = legitimate names that malware likes to impersonate)
+MALWARE|mimikatz.exe
+MALWARE|meterpreter.exe
+MALWARE|wannacry.exe
+MALWARE|xmrig.exe
+MALWARE|rubeus.exe
+MALWARE|sharphound.exe
+MALWARE|cobaltstrike.exe
+SYSTEM|svchost.exe
+SYSTEM|lsass.exe
+SYSTEM|explorer.exe
+SYSTEM|csrss.exe
+SYSTEM|winlogon.exe
+SYSTEM|services.exe
+SYSTEM|spoolsv.exe
+SYSTEM|conhost.exe
+SYSTEM|powershell.exe
+SYSTEM|taskhostw.exe

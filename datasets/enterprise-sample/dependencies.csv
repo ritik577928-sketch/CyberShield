@@ -1,0 +1,15 @@
+# service dependency links to be covered by monitoring: a,b
+Gateway,Auth
+Gateway,Web
+Web,App
+App,Auth
+App,DB
+App,Cache
+Cache,DB
+DB,Backup
+Auth,LDAP
+Web,CDN
+App,Queue
+Queue,Worker
+Worker,DB
+Worker,Mailer

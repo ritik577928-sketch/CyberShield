@@ -1,0 +1,36 @@
+# CATEGORY|SEVERITY|pattern   (patterns are matched after URL-decoding and lower-casing each log line)
+SQL_INJECTION|9|union select
+SQL_INJECTION|8|' or '1'='1
+SQL_INJECTION|8|information_schema
+SQL_INJECTION|7|sleep(
+SQL_INJECTION|7|or 1=1
+XSS|7|<script>
+XSS|6|onerror=
+XSS|6|javascript:
+PATH_TRAVERSAL|8|../../
+PATH_TRAVERSAL|8|etc/passwd
+PATH_TRAVERSAL|7|win.ini
+PATH_TRAVERSAL|7|boot.ini
+COMMAND_INJECTION|9|;cat 
+COMMAND_INJECTION|9|cmd.exe /c
+COMMAND_INJECTION|8|/bin/sh
+COMMAND_INJECTION|7|whoami
+SHELLSHOCK|10|() { :;};
+LOG4SHELL|10|${jndi:
+SCANNER|5|sqlmap
+SCANNER|5|nikto
+SCANNER|5|nmap scripting engine
+SCANNER|5|masscan
+SCANNER|4|wpscan
+SCANNER|4|dirbuster
+WEBSHELL|9|c99.php
+WEBSHELL|9|r57.php
+WEBSHELL|8|b374k
+MALWARE|10|mimikatz
+MALWARE|9|powershell -enc
+MALWARE|10|eicar-standard-antivirus-test-file
+MALWARE|10|meterpreter
+BRUTE_FORCE|8|failed password for root
+BRUTE_FORCE|8|failed password for invalid user
+BRUTE_FORCE|7|invalid user 
+BRUTE_FORCE|9|possible break-in attempt

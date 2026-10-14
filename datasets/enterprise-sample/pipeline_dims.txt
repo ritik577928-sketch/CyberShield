@@ -1,0 +1,4 @@
+# Security-analytics pipeline expressed as a matrix chain: stage i transforms a d[i-1] x d[i] feature matrix.
+# names: Ingest, Parse, Enrich, Correlate, Score, Aggregate
+names=Ingest,Parse,Enrich,Correlate,Score,Aggregate
+dims=30,35,15,5,10,20,25
